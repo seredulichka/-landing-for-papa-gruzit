@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Papa Gruzit</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class = "intro">     
+        <header>
+            <div class="container nav">  
+                    <img class = "intro-logo" src="images/logo.svg"> 
+                    <div id="menuToggle">
+                        <input type="checkbox">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <ul class="nav-name" id="menu">
+                            <li><a class="nav-link nav-prorerty" href="#sec1">Тарифы</a></li>
+                            <li><a class="nav-link nav-prorerty" href="#sec2">Квартирный переезд</a></li>
+                            <li><a class="nav-link nav-prorerty" href="#sec3">Офисный переезд</a></li>
+                            <li><a class="nav-link nav-prorerty" href="#sec4">Преимущества</a></li>
+                            <li><a class="nav-link nav-prorerty" href="#sec5">Отзывы</a></li>
+                        </ul>
+                    </div>
+                    <a class="nav-link">
+                        <img class = "phone-icon-header" src="images/phone-icon-header.svg">
+                        <span>
+                            +38 (093) 946 07 73 <br> 
+                            <span class="telephone-number">
+                                +38 (096) 946 07 73
+                            </span>
+                        </span>
+                        <button data-modal class="call-to-action">Обратный звонок</button>
+                    </a>
+                    
+
+            </div>
+        </header>
+        <div class="container">     
+            <h1> Давай <br> займемся <br> переездом!</h1>
+            <h3>Папа грузит- это не просто компания по <br> грузоперевозкам и переездам, а  ваш <br> надежный партнер, на которого всегда <br> можно положиться</h3>
+            <button data-modal class="button">Оставить заявку</button>
+        </div> 
+    </div>
+ <!-- Блок выбора машин -->
+    <div id="sec1" class="car-choose">
+        <div class="container">
+            <div class="car-choose-text">
+                <h4> Чтобы упростить </h4>
+                <h2> подбор автомобиля </h2>
+                <h4> предоставляем описания размеров и грузоподъемности </h4>
+            </div>
+            <div class="cars-options">
+                <div class="list-item"> 
+                    <img class = "car-icon round" src="images/car-icon-1.png">
+                    <div class="price">500 грн</div>
+                    <p class="item">
+                    Мин заказ (подача + 2 часа) <br>
+                    Дополнительный 1 час - 200 грн <br>
+                    Выезд за Киев - 8 грн/км <br> кругорейс
+                    </p>
+                    <ul>
+                        <li class="description">Объём кузова <span class="light">5м³</span></li>
+                        <li class="description">Длина <span class="light">2,4м</span></li>
+                        <li class="description">Ширина <span class="light">1,5м</span></li>
+                        <li class="description">Высота <span class="light">1,5м</span></li>
+                        <li class="description">Грузоподъёмность <span class="light">800кг</span></li>
+                    </ul>
+                </div>
+                <div class="list-item"> 
+                    <img class = "car-icon round" src="images/car-icon-2.png">
+                    <div class="price">600 грн</div>
+                    <p class="item">
+                    Мин заказ (подача + 2 часа) <br>
+                    Дополнительный 1 час - 250 грн <br>
+                    Выезд за Киев - 9 грн/км <br> кругорейс
+                    </p>
+                    <ul>
+                        <li class="description">Объём кузова <span class="light">11м³</span></li>
+                        <li class="description">Длина <span class="light">3,2м</span></li>
+                        <li class="description">Ширина <span class="light">1,8м</span></li>
+                        <li class="description">Высота <span class="light">1,9м</span></li>
+                        <li class="description">Грузоподъёмность <span class="light">1200кг</span></li>
+                    </ul>
+                </div>
+                <div class="list-item"> 
+                    <img class = "car-icon round" src="images/car-icon-3.png">
+                    <div class="price">700 грн</div>
+                    <p class="item">
+                    Мин заказ (подача + 2 часа) <br>
+                    Дополнительный 1 час - 300 грн <br>
+                    Выезд за Киев - 10 грн/км <br> кругорейс
+                    </p>
+                    <ul>
+                        <li class="description">Объём кузова <span class="light">17м³</span></li>
+                        <li class="description">Длина <span class="light">4,2м</span></li>
+                        <li class="description">Ширина <span class="light">1,8м</span></li>
+                        <li class="description">Высота <span class="light">2,2м</span></li>
+                        <li class="description">Грузоподъёмность <span class="light">1500кг</span></li>
+                    </ul>
+                </div>
+                <div class="list-item"> 
+                    <img class = "car-icon round" src="images/car-icon-4.png">
+                    <div class="price">1650 грн</div>
+                    <p class="item">
+                    Мин заказ (подача + 3 часа) <br>
+                    Дополнительный 1 час - 550 грн <br>
+                    Выезд за Киев - 15 грн/км <br> кругорейс
+                    </p>
+                    <ul>
+                        <li class="description">Объём кузова <span class="light">36м³</span></li>
+                        <li class="description">Длина <span class="light">6м</span></li>
+                        <li class="description">Ширина <span class="light">2,4м</span></li>
+                        <li class="description">Высота <span class="light">2,5м</span></li>
+                        <li class="description">Грузоподъёмность <span class="light">5000кг</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Блок цен на грузчики и стройматериалы -->
+    <div class="packing-and-movers">
+        <div class="container">
+            <div class="price-description">
+                <span class="semi-bold">Грузчики </span>
+                - основной механизм в переезде любого типа, которые выполнят работу качественно и безопасно
+            </div>
+            <img class="price-of-movers" src="images/price-of-movers.jpg">
+            <img class="packing-price" src="images/packing-price.jpg">
+            <div>
+                <div class="price-units-list">
+                    <span class="button price-name">Грузчики</span>
+                    <ul class="price-list">
+                        <li class="price-units">1 час от <span class="semi-bold">150 грн</span>(мин заказ 2 часа)</li>
+                        <li class="price-units">Работа без лифта - от <span class="semi-bold">10 грн</span>/этаж</li>
+                        <li class="price-units">Проходы свыше 25 метров - от <span class="semi-bold">10 грн</span>/25м</li>
+                        <li class="price-units">Подъем/спуск свыше 80кг - дополнительно <span class="semi-bold">3 грн</span>/кг</li>
+                        <li class="price-units">Сборка/разборка мебели - от <span class="semi-bold">150 грн</span>/ед</li>
+                    </ul> 
+                </div>
+            </div>
+            <div>
+                <div class="price-units-list price-units-list-2">
+                    <span class="button price-name">Упаковочные материалы</span>
+                    <ul class="price-list">
+                        <li class="price-units">Стрейч-пленка - <span class="semi-bold">300 грн</span>/рулон </li>
+                        <li class="price-units">Гофрокартон - <span class="semi-bold">250 грн</span>/рулон</li>
+                        <li class="price-units">ВПП - <span class="semi-bold">15 грн</span>/м</li>
+                        <li class="price-units">Скотч - <span class="semi-bold">60</span> грн/шт</li>
+                        <li class="price-units">Коробки - от <span class="semi-bold">70</span> грн/шт</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- блок призыв к действию -->
+    <div class="call-to-action-block">
+        <div class="container">
+            <div class="text-with-img" >
+                <p class="call-to-action-describtion">
+                    Давай спланируем <br> переезд уже сейчас
+                </p>            
+                <img class="location-img" src="images/location.png">
+                <img class="car-with-logo" src="images/car-with-logo.png">
+            </div> 
+                <div class="form-call-to-action">
+                    <div class="form-text">
+                        <p class="order-text">Закажите переезд <br> со скидкой 10%</p>
+                        <p class="order-text-packing">на упаковочные материалы</p>
+                        <p class="order-text-sale">Скидка действует</p>
+                    </div>
+                    <form action="#" class="order__form"> 
+                        <input required class="input-action" placeholder="Имя" name="name" type="text">
+                        <input required class="input-action" placeholder="Номер телефона" name="phone" type="phone">
+                        <button class="button button-call-to-action">
+                            Заказать звонок
+                        </button>
+                    </form>
+                </div> 
+        </div>
+    </div>
+    <!-- блок с прощетами переездов -->
+    <div class="approximate-price">
+        <div id="sec2" class="heading-approximate-price">
+            <span class="border">Примерный</span>
+            <p class="main">Просчет переездов</p>
+        </div>
+        
+        <div class="grid-elements-list container">
+            <div>
+                <div class="price-counting">
+                    Автомобиль размера L (подача + 2 часа работы) = 700 грн <br>
+                    Грузчики (2 часа работы) = 600 грн<br>
+                    Коробки (10 штук по 70грн/шт) = 700 грн <br>
+                    Стрейч пленка (1 рулон) = 300 грн<br>
+                    Скотч (1 шт.) = 60 грн<br>
+                    Разборка дивана, кровати (150 грн за предмет) = 300 грн<br>
+                    Спуск холодильника (7 этажей/ 10 грн) = 70 грн<br>
+                </div> 
+            </div>
+            <div class="name-and-price">
+                <div class="name-counting">
+                    Примерный просчёт 
+                    <div class="bold">переезда квартиры</div> 
+                    <div class="line-height"> 
+                        60м<sup>3</sup>
+                    </div>
+                </div>
+                <span class="button button-counting">2730 грн</span>
+                <div class="cactus">
+                    <img class="image" src="images/cactus.png">
+                </div>
+            </div>
+            <div class="name-and-price text-align-right">
+                <div class="name-counting">
+                    Примерный просчёт 
+                    <div class="bold">переезда загородного <br> дома</div> 
+                </div>
+                <span class="button button-counting">2730 грн</span>
+                <div class="box">
+                    <img class="image" src="images/box.png">
+                </div>
+            </div>
+            <div id="sec3" class="price-counting">
+                Автомобиль XL (подача плюс 5 часов работы) 550*5= 2750 грн<br>
+                Грузчики (6 человек/5 часов работы) 6*5*150=4500 грн<br>
+                Коробки (25 штук) 25*70= 1750 грн<br>
+                Стрейч пленка (4 рулона) 4*300= 1200 грн<br>
+                Скотч (4 штуки) 4*60= 240 грн<br>
+                ВПП - пупырчатая пленка (50м) 50*15= 750 грн<br>
+                Разборка кровати (2 предмета) 2*150= 300 грн<br>
+                Демонтаж кухни = 600 грн<br>
+                Погрузка сейфа (300 кг) 300*3= 900 грн<br>
+                Проходы более 25 метров (60 раз ) 60*10= 600 грн<br>
+                Спуск предметов по лестнице (40 раз) 40*10= 400 грн<br>
+            </div>
+            <div class="price-counting">
+                Автомобиль XL (подача плюс 6 часов работы) = 3300 грн <br>
+                Грузчики (4 чел/ 6 часов работы) = 4*6*150= 3600 грн<br>
+                Коробки (30 штук) 30*70= 2100 грн<br>
+                Стрейч пленка (4 рулона) = 4*300 = 1200 грн<br>
+                Скотч (3 штуки) = 3*60= 180 грн <br>
+                ВПП - пупырчатая пленка(30м ) = 30*15= 450 грн<br>
+                Разборка столов (25 штук) = 25*150= 3750 грн<br>
+                Перенос сейфа 300 кг = 300*3= 900 грн<br>
+                Спуск предметов по лестнице (350 спусков) = 350*10= 3500 грн<br>
+            </div>
+            <div class="name-and-price">
+                <div class="name-counting">
+                    Примерный просчёт 
+                    <div class="bold">переезда офиса</div> 
+                    <div class="line-height"> 
+                        150м<sup>3</sup>
+                    </div>
+                </div>
+                <span class="button button-counting">18980 грн</span>
+                <div class="folders">
+                    <img class="image" src="images/folder.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- блок преимущества -->
+    <div  id="sec4" class="advantages container">
+        <div class="heading-advantages">
+            Наши преимущества :
+        </div>
+        <div class="display-grid">
+            <div class="advantage">
+                <img class="advantage-img" src="images/advantages-icon1.svg">
+                <div class="advantage-describtion">
+                    Умение услышать и <br>предложить правильное <br>решение задачи
+                </div>
+            </div>
+            <div class="advantage">
+                <img class="advantage-img" src="images/advantages-icon2.svg">
+                <div class="advantage-describtion">
+                    Правильный подбор авто,<br> исходя из фактического<br>объема вещей
+                </div>
+            </div>
+            <div class="advantage">
+                <img class="advantage-img" src="images/advantages-icon3.svg">
+                <div class="advantage-describtion">
+                    Опытные работники,<br>которые знают правильную<br>очередность загрузки авто
+                </div>
+            </div>
+            <div class="advantage">
+                <img class="advantage-img" src="images/advantages-icon4.svg">
+                <div class="advantage-describtion">
+                    Несение материальной<br>ответственности за<br>непредвиденные ситуации
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- блок отзывы -->
+    <div id="sec5" class="feadback">
+        <div class="feadback-header container">
+            Отзывы наших клиентов
+        </div>
+        <div class="field-for-review">
+            <div class="reviews container">
+                <div class="review">
+                    <div class="name">
+                        Игорь
+                    </div>
+                    <img class="stars" src="images/stars.svg">
+                    <div class="text-review">
+                        Быстро, качественно. Спасибо большое.
+                    </div>
+                </div>
+                <div class="review">
+                    <div class="name">
+                        Катя
+                    </div>
+                    <img class="stars" src="images/stars.svg">
+                    <div class="text-review">
+                        Заказывала перевозку и подъем стройматериалов. Приехали вовремя, все сделали быстро. Без постоянных перекуров и матов, как это бывает у многих! По необходимости еще буду обращаться.
+                    </div>
+                </div>
+                <div class="review">
+                    <div class="name">
+                        Денис
+                    </div>
+                    <img class="stars" src="images/stars.svg">
+                    <div class="text-review">
+                        Все прекрасно. Ребята аккуратно все переносят, быстро. Быстро обо всем договорились. Будем сотрудничать и дальше. Ребята молодцы!
+                    </div>
+                </div>
+                <div class="review">
+                    <div class="name">
+                        Анна Пичугина
+                    </div>
+                    <img class="stars" src="images/stars.svg">
+                    <div class="text-review">
+                        Александр оставил только положительные впечатления. Все детали оговорили заранее и четко. Заказ исполнен быстро и качественно. Рекомендую на все 100%
+                    </div>
+                </div>
+                <div class="review">
+                    <div class="name">
+                        Мария
+                    </div>
+                    <img class="stars" src="images/stars.svg">
+                    <div class="text-review">
+                        Нужно было перевезти очень много мебели. Заказала машину и грузчиков, приехали быстро, аккуратно загрузили, все проложили. В общем управились быстро и хорошо. Спасибо ребята и удачи вам!
+                    </div>
+                </div>
+                <div class="review">
+                    <div class="name">
+                        Николай Васильевич
+                    </div>
+                    <img class="stars" src="images/stars.svg">
+                    <div class="text-review">
+                        Никак не мог вытащить, не разбирая ничего диван. Вызвал компанию Папа грузит, посмотрели, подняли под не мыслимым углом и вытащили, ну а дальше - как по маслу, перевезли, славу богу что в новой квартире у меня очень большая дверь. Хорошая компания, могу пожелать только удачи. Успехов!
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <img class="logo-footer" src="images/logo.svg">
+            <div class="display-grid-contacts">
+                <div class="contact">
+                    <img class="footer-icon" src="images/footer-viber-icon.png">
+                    <img class="footer-icon" src="images/footer-telegram-icon.png">
+                    <img class="footer-icon"src="images/footer-whatsapp-icon.png">
+                    <span class="contact-information">
+                        +38 (093) 946 07 73
+                    </span>
+                </div>
+                <div class="contact"> 
+                    <img class="footer-icon" src="images/footer-mail-icon.png">
+                    <span class="contact-information">
+                        papagruzit@gmail.com
+                    </span>
+                </div>
+                <div class="contact">
+                    <img class="footer-icon" src="images/footer-phone-icon.png">
+                    <span class="contact-information">
+                        +38 (096) 946 07 73
+                    </span>
+                </div>
+                <div class="contact">
+                    <img class="footer-icon" src="images/footer-location-icon.png">
+                    <span class="contact-information">
+                        г. Киев
+                    </span>
+                </div>
+            </div>    
+        </div>
+    </footer>
+    <!-- модальное окно -->
+    <div class="modal">
+        <div class="modal__dialog">
+            <div class="modal__content">
+                <form action="#">
+                    <div data-close class="modal__close">&times;</div>
+                    <div class="modal__title">Оставьте свои данные и мы свяжемся с вами как можно быстрее!</div>
+                    <input required placeholder="Ваше имя" name="name" type="text" class="modal__input">
+                    <input required placeholder="Ваш номер телефона" name="phone" type="phone" class="modal__input">
+                    <button class="btn">Перезвонить мне</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
