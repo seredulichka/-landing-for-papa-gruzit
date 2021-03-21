@@ -127,7 +127,7 @@ body{
     #menu li{
         position: relative;
         padding: 10px 0;
-        font-size: 22px;
+        font-size: 25px;
         display: block;
     }
 
@@ -144,10 +144,27 @@ body{
     background-size: cover;
 }
 
+@media (max-width: 687px) {
+    .intro{
+        height: 2000px;
+        background: url(images/intro-bg.jpg)center/140% no-repeat;
+        
+    }
+}
+
 .intro-logo{
     height: 90px;
     padding-top: 20px;
 }
+
+@media (max-width: 687px) {
+    .intro-logo{
+        position: absolute;
+        height: 200px;
+        padding-left: 100%;
+    }
+}
+
 
 .phone-icon-header{
     height: 40px;
@@ -173,7 +190,8 @@ body{
 /* шапка для пк */
 @media (min-width: 687px){
     #menuToggle input{
-        display: none;}
+        display: none;
+    }
 
     header{
         height: 94px;
@@ -208,8 +226,6 @@ body{
     .nav-prorerty{
         padding: 1em;
     }
-
-  
 }
 /* блок 1 */
 h1{
@@ -220,12 +236,27 @@ h1{
     padding-bottom: 50px;
 }
 
+@media (max-width: 687px) {
+    h1{
+        padding-top: 40%;
+        padding-bottom: 5%;
+        font-size: 120px;
+    }
+}
+
 h3{
     font-size: 26px;
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
     padding-bottom: 50px;
     line-height: 1.3;
+}
+
+@media (max-width: 687px) {
+    h3{
+        padding-bottom: 5%;
+        font-size: 40px;
+    }
 }
 
 
@@ -237,6 +268,13 @@ h3{
     border-radius: 8px;
     background-color: #33CCFF;
     box-shadow:  4px 4px 0px #000099;
+}
+
+@media (max-width: 687px) {
+    .button{
+        font-size: 55px;
+        font-weight: 500;
+    }
 }
 
 /* блок 2 */

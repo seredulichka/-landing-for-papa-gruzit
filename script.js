@@ -73,7 +73,7 @@ window.addEventListener("DOMContentLoaded", function() {
             form.insertAdjacentElement('afterend', statusMessage);
         
             const request = new XMLHttpRequest();
-            request.open('POST', 'server.php');
+            request.open('POST', 'sendmail.php');
             request.setRequestHeader('Content-type', 'application/json; charset=utf-8');
             let formData = new FormData(form);
 
