@@ -6,7 +6,6 @@ window.addEventListener("DOMContentLoaded", function() {
     const modalTrriger = document.querySelectorAll("[data-modal]"),
           modal = document.querySelector(".modal");
 
-
     modalTrriger.forEach ((item)=>{
         item.addEventListener("click",openModal);
     });

@@ -13,6 +13,7 @@
         <header>
             <div class="container nav">  
                     <img class = "intro-logo" src="images/logo.svg"> 
+                    <img class = "logo-header-mobile" src="images/logo-header-mobile.svg">
                     <div id="menuToggle">
                         <input type="checkbox">
                         <span></span>
@@ -26,10 +27,10 @@
                             <li><a class="nav-link nav-prorerty" href="#sec5">Отзывы</a></li>
                         </ul>
                     </div>
-                    <a class="nav-link">
+                    <a class="nav-link display-nubers">
                         <img class = "phone-icon-header" src="images/phone-icon-header.svg">
                         <span>
-                            +38 (093) 946 07 73 <br> 
+                            <span class="first-number"> +38 (093) 946 07 73 <br> </span>
                             <span class="telephone-number">
                                 +38 (096) 946 07 73
                             </span>
@@ -130,20 +131,20 @@
             <img class="price-of-movers" src="images/price-of-movers.jpg">
             <img class="packing-price" src="images/packing-price.jpg">
             <div>
-                <div class="price-units-list">
+                <div class="price-units-list price-units-list-1">
                     <span class="button price-name">Грузчики</span>
                     <ul class="price-list">
-                        <li class="price-units">1 час от <span class="semi-bold">150 грн</span>(мин заказ 2 часа)</li>
-                        <li class="price-units">Работа без лифта - от <span class="semi-bold">10 грн</span>/этаж</li>
-                        <li class="price-units">Проходы свыше 25 метров - от <span class="semi-bold">10 грн</span>/25м</li>
-                        <li class="price-units">Подъем/спуск свыше 80кг - дополнительно <span class="semi-bold">3 грн</span>/кг</li>
-                        <li class="price-units">Сборка/разборка мебели - от <span class="semi-bold">150 грн</span>/ед</li>
+                        <li class="price-units">1 час от <span class="semi-bold">150 грн</span> <span class="text-wrapping-mobile"></span> (мин заказ 2 часа)</li>
+                        <li class="price-units">Работа без лифта - <span class="text-wrapping-mobile"></span> от <span class="semi-bold">10 грн</span>/этаж</li>
+                        <li class="price-units">Проходы свыше 25 метров - <span class="text-wrapping-mobile"></span> от <span class="semi-bold">10 грн</span>/25м</li>
+                        <li class="price-units">Подъем/спуск свыше 80кг - <span class="text-wrapping-mobile"></span> дополнительно <span class="semi-bold">3 грн</span>/кг</li>
+                        <li class="price-units">Сборка/разборка мебели - <span class="text-wrapping-mobile"></span>от <span class="semi-bold">150 грн</span>/ед</li>
                     </ul> 
                 </div>
             </div>
             <div>
                 <div class="price-units-list price-units-list-2">
-                    <span class="button price-name">Упаковочные материалы</span>
+                    <span class="button price-name movers">Упаковочные материалы</span>
                     <ul class="price-list">
                         <li class="price-units">Стрейч-пленка - <span class="semi-bold">300 грн</span>/рулон </li>
                         <li class="price-units">Гофрокартон - <span class="semi-bold">250 грн</span>/рулон</li>
@@ -169,7 +170,7 @@
                     <div class="form-text">
                         <p class="order-text">Закажите переезд <br> со скидкой 10%</p>
                         <p class="order-text-packing">на упаковочные материалы</p>
-                        <p class="order-text-sale">Скидка действует</p>
+                        <p class="order-text-sale">*для получения скидки при заказе укажите промокод ORDERONLINE</p>
                     </div>
                     <form action="#" class="order__form"> 
                         <input required class="input-action" placeholder="Имя" name="name" type="text">
@@ -189,7 +190,7 @@
         </div>
         <div class="grid-elements-list container">
             <div>
-                <div class="price-counting">
+                <div class="price-counting apartment">
                     Автомобиль размера L (подача + 2 часа работы) = 700 грн <br>
                     Грузчики (2 часа работы) = 600 грн<br>
                     Коробки (10 штук по 70грн/шт) = 700 грн <br>
@@ -199,7 +200,7 @@
                     Спуск холодильника (7 этажей/ 10 грн) = 70 грн<br>
                 </div> 
             </div>
-            <div class="name-and-price">
+            <div class="name-and-price position-mobile heading-apartment">
                 <div class="name-counting">
                     Примерный просчёт 
                     <div class="bold">переезда квартиры</div> 
@@ -212,17 +213,17 @@
                     <img class="image" src="images/cactus.png">
                 </div>
             </div>
-            <div class="name-and-price text-align-right">
+            <div class="name-and-price text-align-right heading-county-house">
                 <div class="name-counting">
                     Примерный просчёт 
                     <div class="bold">переезда загородного <br> дома</div> 
                 </div>
-                <span class="button button-counting">2730 грн</span>
+                <span class="button button-counting">13990 грн</span>
                 <div class="box">
                     <img class="image" src="images/box.png">
                 </div>
             </div>
-            <div id="sec3" class="price-counting">
+            <div id="sec3" class="price-counting country-house">
                 Автомобиль XL (подача плюс 5 часов работы) 550*5= 2750 грн<br>
                 Грузчики (6 человек/5 часов работы) 6*5*150=4500 грн<br>
                 Коробки (25 штук) 25*70= 1750 грн<br>
@@ -235,7 +236,7 @@
                 Проходы более 25 метров (60 раз ) 60*10= 600 грн<br>
                 Спуск предметов по лестнице (40 раз) 40*10= 400 грн<br>
             </div>
-            <div class="price-counting">
+            <div class="price-counting office">
                 Автомобиль XL (подача плюс 5 часов работы) = 2750 грн <br>
                 Грузчики ( 4 чел/ 5 часов работы) = 4*5*150= 3000 грн<br>
                 Коробки (30 штук) 30*70= 2100 грн<br>
@@ -246,7 +247,7 @@
                 Перенос сейфа 200 кг = 200*3= 600 грн<br>
                 Спуск предметов по лестнице (56 спусков) = 56*10= 560 грн<br>
             </div>
-            <div class="name-and-price">
+            <div class="name-and-price heading-office">
                 <div class="name-counting">
                     Примерный просчёт 
                     <div class="bold">переезда офиса</div> 
@@ -270,25 +271,25 @@
             <div class="advantage">
                 <img class="advantage-img" src="images/advantages-icon1.svg">
                 <div class="advantage-describtion">
-                    Умение услышать и <br>предложить правильное <br>решение задачи
+                    Умение услышать и <span class="text-wrapping"></span> предложить правильное <span class="text-wrapping"></span> решение задачи
                 </div>
             </div>
             <div class="advantage">
                 <img class="advantage-img" src="images/advantages-icon2.svg">
                 <div class="advantage-describtion">
-                    Правильный подбор авто,<br> исходя из фактического<br>объема вещей
+                    Правильный подбор авто,<span class="text-wrapping"></span>  исходя из фактического<span class="text-wrapping"></span> объема вещей
                 </div>
             </div>
             <div class="advantage">
                 <img class="advantage-img" src="images/advantages-icon3.svg">
                 <div class="advantage-describtion">
-                    Опытные работники,<br>которые знают правильную<br>очередность загрузки авто
+                    Опытные работники,<span class="text-wrapping"></span> которые знают правильную<span class="text-wrapping"></span> очередность загрузки авто
                 </div>
             </div>
             <div class="advantage">
                 <img class="advantage-img" src="images/advantages-icon4.svg">
                 <div class="advantage-describtion">
-                    Несение материальной<br>ответственности за<br>непредвиденные ситуации
+                    Несение материальной<span class="text-wrapping"></span> ответственности за<span class="text-wrapping"></span> непредвиденные ситуации
                 </div>
             </div>
         </div>
@@ -360,7 +361,7 @@
     <footer>
         <div class="container">
             <img class="logo-footer" src="images/logo.svg">
-            <div class="display-grid-contacts">
+            <div class="display-grid-contacts margin-mobile">
                 <div class="contact">
                     <img class="footer-icon" src="images/footer-viber-icon.png">
                     <img class="footer-icon" src="images/footer-telegram-icon.png">
