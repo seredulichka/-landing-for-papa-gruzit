@@ -120,4 +120,25 @@ window.addEventListener("DOMContentLoaded", function() {
              closeModal();
         }, 4000);
     }
+
+
+    // button back to top
+    const buttonBackToTop = document.querySelector('.back-to-top');
+
+    buttonBackToTop.addEventListener('click', scrollUpFunction);
+
+    function scrollUpFunction(){
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+
+    window.addEventListener('scroll', scrollFunction);
+
+    function scrollFunction(){
+        if(document.body.scrollTop > 3270 || document.documentElement.scrollTop > 3270){
+            buttonBackToTop.style.display = "block";
+        } else {
+            buttonBackToTop.style.display = "none";
+        }
+    }
 });

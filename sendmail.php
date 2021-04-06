@@ -5,14 +5,14 @@
     $name = $_POST['name'];
     $phone = $_POST['phone'];
 
-    $to = "alinasereda300898@gmail.com";
+    $to = "papagruzit@gmail.com";
     $date = date ("d.m.Y");
     $time = date ("h:i");
-    $from = $email;
+    $from = "alinasereda300898@gmail.com";
     $subject = "Заявка с сайта";
 
     $msg="
     Имя: $name /n
     Телефон: $phone";
-    mail($to, $subject, $msg, "From: $to ");
+    mail($to, $subject, $msg, "From: $from ");
 ?>
